@@ -1,0 +1,25 @@
+h1.light {
+    padding-top: 50px;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+h1.dark {
+    padding-top: 50px;
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+}
+
+.light.brief {
+    font-size: x-large;
+}
+
+.dark.brief {
+    font-size: x-large;
+    color: white;
+}
+
+#bitmoji {
+    margin-bottom: 50px;
+}
