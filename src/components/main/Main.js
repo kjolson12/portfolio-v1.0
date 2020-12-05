@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import bitmoji from '../../images/hello_bitmoji.jpeg';
+import bitmoji from '../../images/hello_bitmoji.png';
 
 const Main = ({ toggleTheme, themeClassName}) => {
     return (

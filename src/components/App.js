@@ -36,7 +36,7 @@ class App extends React.Component {
                 <br />
                 <SkillList themeClassName={this.themeClassName} />
                 <br />
-                <ToolList themeClassName={this.themeClassName} />
+                <ToolList themeClassName={this.themeClassName} themeState={this.state.theme} />
                 <br />
                 <ProjectList themeClassName={this.themeClassName} />
                 <br />

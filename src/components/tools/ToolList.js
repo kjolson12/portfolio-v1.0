@@ -3,8 +3,16 @@ import React from 'react';
 import Tool from './Tool';
 import { data } from './ToolData';
 
-const ToolList = ({ themeClassName }) => {
-    const renderTools = data.map(tool => {
+const ToolList = ({ themeClassName, themeState }) => {
+    let filteredData;
+
+    if (themeState === 'Light') {
+        filteredData = data.filter(x => x.id !== 1.5);
+    } else {
+        filteredData = data.filter(x => x.id !== 1);
+    }
+
+    const renderTools = filteredData.map(tool => {
         return (
             <div className='column' key={tool.id}>
                 <Tool tool={tool.name} imageSource={tool.imageSource} />

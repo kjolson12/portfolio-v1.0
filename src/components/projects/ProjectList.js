@@ -13,6 +13,7 @@ const ProjectList = ({ themeClassName }) => {
                 skills={project.skills} 
                 key={project.title}
                 themeClassName={themeClassName}
+                link={project.link}
             />
         )
     });
