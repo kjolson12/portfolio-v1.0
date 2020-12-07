@@ -8,7 +8,7 @@ const Skill = ({ imageSource, skill }) => {
                     alt='logo'
                     src={imageSource}
                     className='ui centered tiny image'
-                    style={{ maxHeight: '80px' }}
+                    style={{ height: '80px !important' }}
                 />
             </div>
             <div className='centered row'>
