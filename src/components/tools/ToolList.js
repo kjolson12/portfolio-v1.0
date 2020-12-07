@@ -28,7 +28,7 @@ const ToolList = ({ themeClassName, themeState }) => {
                         <h3>Tools I use:</h3>
                     </div>
                 </div>
-                <div className='four column centered row'>
+                <div className='doubling four column centered row'>
                     {renderTools}
                 </div>
             </div>
