@@ -8,7 +8,8 @@ const Skill = ({ imageSource, skill }) => {
                     alt='logo'
                     src={imageSource}
                     className='ui centered tiny image'
-                    style={{ maxHeight: '80px !important' }}
+                    //semantic ui image size on mobile bug fix
+                    style={{ height: '80px !important' }}
                 />
             </div>
             <div className='centered row'>
