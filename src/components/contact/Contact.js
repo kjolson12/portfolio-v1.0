@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='ui grid'>
+        <div className='ui padded grid'>
             <div className='violet row'>
                 <div className='ui center aligned container'>
                     <div className='ui hidden divider'></div>

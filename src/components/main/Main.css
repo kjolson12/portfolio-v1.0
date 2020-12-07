@@ -23,3 +23,9 @@ h1.dark {
 #bitmoji {
     margin-bottom: 50px;
 }
+
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    #computerImage {
+        width: 350px;
+    }
+} 

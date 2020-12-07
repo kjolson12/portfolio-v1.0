@@ -4,7 +4,7 @@ import './Bio.css';
 
 const Bio = () => {
     return (
-        <div className='ui grid'>
+        <div className='ui padded grid'>
             <div className='violet row' id='bio'>
                 <div className='ui center aligned container'>
                     <h2>Hi, I'm Kyle. Nice to meet you.</h2>
