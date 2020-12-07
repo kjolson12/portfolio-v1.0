@@ -7,14 +7,14 @@ const Main = ({ toggleTheme, themeClassName}) => {
         <div>
             <div className='ui padded grid'>
                 <div className='violet row'>
-                    <div className='eight wide column'>
+                    <div className='left aligned eight wide column'>
                         <i
                             className={themeClassName('huge toggle off icon', 'huge toggle on icon')}
                             onClick={toggleTheme}
                         />
                         <i className={themeClassName('big sun icon', 'big moon icon')} />
                     </div>
-                    <div className='eight wide column'>
+                    <div className='right aligned eight wide column'>
                         <a
                             href='https://docs.google.com/document/d/1hwFZ9iQUeT3MRrY428W56Vt7OMOV-UB-SPG-A_fPzOw/export?format=pdf'
                             className={themeClassName('ui huge button', 'ui inverted huge button')}

@@ -25,7 +25,7 @@ const ProjectList = ({ themeClassName }) => {
                 Projects
             </h1>
             <div className='ui hidden divider'></div>
-            <div className='ui three special cards'>
+            <div className='ui three stackable cards'>
                 {renderProjects}
             </div>
         </div>

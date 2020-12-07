@@ -20,7 +20,7 @@ const SkillList = ({ themeClassName }) => {
                         <h3>Skills I have:</h3>
                     </div>
                 </div>
-                <div className='five column centered row'>
+                <div className='four column centered row'>
                     {renderSkills}
                 </div>
             </div>
